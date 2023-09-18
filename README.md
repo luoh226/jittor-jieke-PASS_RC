@@ -3,7 +3,7 @@
 # Jittor 大规模无监督语义分割赛题 PASS_RC
 任务目标
 
-<img src=".\img\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:50%;" />                  <img src=".\img\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src=".\img\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:50%;" />
+<img src=".\img\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:30%;" />                  <img src=".\img\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src=".\img\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:30%;" />
 
 矫正前后对比图（第1、3列）
 
@@ -49,4 +49,4 @@ bash test.sh
 ```
 
 ## 致谢
-此项目基于论文*Large-scale Unsupervised Semantic Segmentation* 实现，部分代码参考了 [SaliencyRC]([congve1/SaliencyRC: This the python implementation of the saliency cut method proposed in the paper "Global Contrast based Salient Region Detection" (github.com)](https://github.com/congve1/SaliencyRC))。
+此项目基于论文*Large-scale Unsupervised Semantic Segmentation* 实现，部分代码参考了 [SaliencyRC](https://github.com/congve1/SaliencyRC)。
