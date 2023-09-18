@@ -1,21 +1,21 @@
-| 第二届计图挑战赛开源模板
+| 第三届计图挑战赛开源模板
 
-# Jittor 草图生成风景比赛 baseline
-| 标题名称包含赛题、方法
+# Jittor 大规模无监督语义分割赛题 PASS_RC
+<img src="D:\DeepLearning\Jittor\img\readme\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:50%;" />                  <img src="D:\DeepLearning\Jittor\img\readme\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src="D:\DeepLearning\Jittor\img\readme\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:50%;" />
 
-![主要结果](https://s3.bmp.ovh/imgs/2022/04/19/440f015864695c92.png)
 
-｜展示方法的流程特点或者主要结果等
+
+![矫正对比图](D:\DeepLearning\Jittor\img\readme\矫正对比图.png)
 
 ## 简介
 | 简单介绍项目背景、项目特点
 
-本项目包含了第二届计图挑战赛计图 - 草图生成风景比赛的代码实现。本项目的特点是：采用了 XX 方法对 YY 处理，取得了 ZZ 的效果。
+本项目包含了第三届计图挑战赛计图 - 大规模无监督语义分割赛题的代码实现。本项目的特点是：采用了RC显著性检测方法对PASS生成的FG Mask进行矫正，生成了更加接近GT Mask的前景掩膜，最终分割效果比PASS提高了2.32%。
 
 ## 安装 
 | 介绍基本的硬件需求、运行环境、依赖安装方法
 
-本项目可在 2 张 2080 上运行，训练时间约为 6 小时。
+本项目可在 2 张 3090 上训练，训练时间约为 40 小时。在 1 张3090上测试大约需要 1 小时。
 
 #### 运行环境
 - ubuntu 20.04 LTS
