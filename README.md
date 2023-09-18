@@ -1,15 +1,15 @@
-| 第三届计图挑战赛开源模板
+| 第三届计图挑战赛
 
 # Jittor 大规模无监督语义分割赛题 PASS_RC
-<img src="D:\DeepLearning\Jittor\img\readme\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:50%;" />                  <img src="D:\DeepLearning\Jittor\img\readme\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src="D:\DeepLearning\Jittor\img\readme\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:50%;" />
+任务目标
 
+<img src=".\img\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:50%;" />                  <img src=".\img\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src=".\img\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:50%;" />
 
+矫正前后对比图（第1、3列）
 
-![矫正对比图](D:\DeepLearning\Jittor\img\readme\矫正对比图.png)
+<img src=".\img\矫正对比图.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:50%;" align="left"/>
 
 ## 简介
-| 简单介绍项目背景、项目特点
-
 本项目包含了第三届计图挑战赛计图 - 大规模无监督语义分割赛题的代码实现。本项目的特点是：采用了RC显著性检测方法对PASS生成的FG Mask进行矫正，生成了更加接近GT Mask的前景掩膜，最终分割效果比PASS提高了2.32%。
 
 ## 安装 
