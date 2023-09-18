@@ -3,7 +3,7 @@
 # Jittor 大规模无监督语义分割赛题 PASS_RC
 任务目标
 
-<img src=".\img\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:30%;" />                  <img src=".\img\箭头.png" alt="箭头" style="zoom:67%;" />                     <img src=".\img\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:30%;" />
+<img src=".\img\ILSVRC2012_val_00010974.JPEG" alt="ILSVRC2012_val_00010974" style="zoom:10%;" />                  <img src=".\img\箭头.png" alt="箭头" style="zoom:17%;" />                     <img src=".\img\ILSVRC2012_val_00010974_mask.png" alt="ILSVRC2012_val_00010974_mask" style="zoom:10%;" />
 
 矫正前后对比图（第1、3列）
 
